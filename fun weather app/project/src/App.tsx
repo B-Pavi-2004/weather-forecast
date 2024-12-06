@@ -66,6 +66,9 @@ function App() {
             <h1 className="text-4xl font-bold text-white">
               Fun Weather Forecast
             </h1>
+            <p className="text-xl text-white/90 italic">
+              Your daily weather companion for planning the perfect day ahead!
+            </p>
             <SearchBar onSearch={handleSearch} />
             {locationName && (
               <p className="text-white text-xl">
